@@ -1,0 +1,55 @@
+body {
+	text-align: center;
+}
+
+#collectBonus p {
+		text-align: center;
+		width: 50%;
+		position: relative;
+		left: 24%;
+		line-height: 20px;
+}
+
+.notCell {
+	width: 30px;
+	height: 30px;
+	margin: 1px;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.getGrid {
+	position: relative;
+	width: auto;
+	height: auto;
+	font-size: 12px;
+    z-index: 10000;
+    margin: auto;
+	width: 210px;
+
+}
+
+
+
+.ready {
+	background-color: #e6e6e7;
+}
+
+.ready:hover {
+	background-color: orange;
+}
+
+.pending {
+	background-color: #d10000;
+
+}
+
+.spent {
+	background: url(../img/empty_square.png) no-repeat;
+	background-position: 50% 50%;
+}
+
+.won {
+	background: url(../img/gift.png) no-repeat 50% 50%;
+	background-size: 25px;
+}
