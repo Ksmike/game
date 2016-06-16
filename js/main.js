@@ -1,4 +1,6 @@
 $(function() {
+    var count = 0;
+
 	$('.notCell.ready').click(function () {
 
         var newNm = Math.floor(Math.random() * (36 - 0 + 1)) + 0;
@@ -20,7 +22,10 @@ $(function() {
         } else {
         	alert('You found the treasure');
         }
-		$('#counter').html(function(i, val) { return +val+1 });
+
+        count++;
+        $("#counter").html("Turn " + count + "!");
+        console.log('count: ', count);
 
 	});
 
