@@ -1,5 +1,5 @@
 $(function() {
-    var count = 10;
+    var count = 15;
     var audioElement = document.createElement('audio');
     buzzRandomCell();
 
@@ -45,7 +45,7 @@ $(function() {
 
 		$('.notCell.won').removeClass('won').addClass('ready');
 		$('.notCell.spent').removeClass('spent').addClass('ready');
-        count = 10;
+        count = 15;
         $("#counter").html("New Game!");
 
 	});

@@ -4,11 +4,11 @@ body {
 }
 
 #collectBonus p {
-		text-align: center;
-		width: 50%;
-		position: relative;
-		left: 24%;
-		line-height: 20px;
+	text-align: center;
+	width: 50%;
+	position: relative;
+	left: 24%;
+	line-height: 20px;
 }
 
 .notCell {
@@ -27,7 +27,8 @@ body {
     z-index: 10000;
     margin: auto;
 	width: 210px;
-
+	background: url(../img/myface.jpg) no-repeat;
+	background-position: 10% 50%;
 }
 
 
