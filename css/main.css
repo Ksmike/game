@@ -1,6 +1,7 @@
 body {
 	text-align: center;
 	background-color: azure;
+	font-family: 'Lato', sans-serif;
 }
 
 #collectBonus p {
@@ -9,6 +10,10 @@ body {
 	position: relative;
 	left: 24%;
 	line-height: 20px;
+}
+
+#counter {
+	margin: 35px;
 }
 
 .notCell {
